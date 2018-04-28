@@ -1,0 +1,140 @@
+/*Top Section*/
+* {
+	transition: 0.5s ease;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 25px;
+}
+
+ul {
+	padding-left: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+nav {
+	background-color: #FFA500;
+	text-align: right;
+	padding: 25px;
+}
+
+li:hover {
+	background-color: white;
+}
+
+li:hover a {
+	color: #ADD8E6;
+}
+
+.logo {
+	text-align: left;
+	color: white;
+	background-color: #FFA500;
+	font-size: 25px;
+}
+
+
+/*Middle Section*/
+section{
+	text-align: center;
+}
+
+.Middle1, .Middle2 {
+	display: inline-block;
+	width: 485px;
+	margin: 0 auto;
+}
+
+img {
+	height: 400px;
+	width: 400px;
+}
+
+
+#Searchbox {
+	position: absolute;
+    top: 150px;
+    right: 16px;
+    font-size: 70px;
+    border: none;
+    box-shadow: left;
+    
+}
+
+#text{
+	text-align: right;
+	right: 45px;
+	font-size: 50px;
+  	color: orange;
+}
+
+span {
+	color: #ADD8E6;
+}
+
+.Button1, .Button2 {
+	display: inline-block;
+	border: none;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.Button1 {
+	background-color: #3CB371;
+}
+
+.Button2 {
+	background-color: orange
+}
+
+/*Bottom Section-social media*/
+footer {
+	background-color: #3CB371;
+	padding: 25px;
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+	margin: 5px 25px;
+	padding: 5px 10px;
+}
+
+
+}
+
+@media(max-width: 950px) {
+	nav {
+		text-align: top;
+		margin: 50px;
+		padding: 45px;
+		display: inline-block;
+		position: relative;
+
+	}
+
+@media(min-width: 650px) {
+	body {
+		text-align: top;
+		margin: 50px;
+		padding: 45px;
+		display: inline-block;
+		position: relative;
+		font-size: 25px;	
+	}
+
+
+
+
